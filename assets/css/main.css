@@ -1043,7 +1043,7 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info-wrap {
+/* .contact .info-wrap {
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -1096,15 +1096,15 @@ section,
   height: 100%;
   padding: 30px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-}
-
+} */
+/* 
 @media (max-width: 575px) {
   .contact .php-email-form {
     padding: 20px;
   }
-}
+} */
 
-.contact .php-email-form input[type=text],
+/* .contact .php-email-form input[type=text],
 .contact .php-email-form input[type=email],
 .contact .php-email-form textarea {
   font-size: 14px;
@@ -1139,7 +1139,7 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details Section
@@ -1272,4 +1272,98 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+/* Contact Section */
+.contact.section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Info Box Styling */
+.info-wrap {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.info-item {
+  margin-bottom: 20px;
+}
+
+.info-item i {
+  font-size: 24px;
+  color: #0d6efd;
+  margin-right: 15px;
+}
+
+.info-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.info-item p {
+  color: #666;
+  margin: 0;
+}
+
+/* Form Styling */
+form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+form label {
+  font-weight: 500;
+  color: #333;
+}
+
+form .form-control {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  transition: all 0.3s ease;
+}
+
+form .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 8px rgba(13,110,253,0.3);
+}
+
+/* Submit Button */
+form button[type="submit"] {
+  background: #0d6efd;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background: #0b5ed7;
+}
+
+/* Map Styling */
+iframe {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 15px;
 }
